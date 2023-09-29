@@ -16,7 +16,7 @@ let albumElements = data.map((album) => {
 
 export default function Discography(){
     return(
-        <section>
+        <section className='discography-section'>
             <div className='row'>
                 <h2>Singles</h2>
                 <div className='discography-display'>{singleElements}</div>
