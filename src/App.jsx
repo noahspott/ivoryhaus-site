@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import Discography from './components/Discography'
 import Footer from './components/Footer'
+import NewsletterForm from './components/NewsletterForm'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Discography />
       </div>
+      {/* <NewsletterForm /> */}
       <Footer />
     </>
   )
